@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+  text-decoration-line: underline;
+}
+
+#fetch-data-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #01050a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+h3 {
+  width: 100%;
+  color: #050101;
+  text-align: left;
+  padding: 10px;
+  text-decoration-line: underline;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f7f7f8;
+}
+
+.thumbnail {
+  width: 200px;
+  height: 200px;
+}
+
+#api1-data {
+  background-color: #f6f6f6;
+}
+
+#api2-data {
+  background-color: #f6f6f6;
+}
+
+#api3-data {
+  background-color: #f6f6f6;
+}
